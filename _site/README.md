@@ -1,4 +1,4 @@
-## Webster
+## Webster ![Travis CI](https://travis-ci.org/yenbekbay/webster.svg?branch=master)
 
 Portfolio projects are in '/_posts'
 
