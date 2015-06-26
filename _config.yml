@@ -1,64 +1,16 @@
-url: http://hiwebster.kz
-
 # Site settings
 title: Webster
 email: contact@hiwebster.kz
-description: "Webster - разработка оригинальных мобильных приложений и веб-сервисов."
+url: https://hiwebster.kz
+description: "Студия по разработке красивых и функциональных мобильных приложений."
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: D17037
-  secondary: BC6531
-  secondary-dark: 333
+sass:
+  style: compressed
 
-# Team names, titles and social links
-people:
-- name: Name 1
-  pic: photo
-  position: iOS Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Name 2
-  pic: photo
-  position: Android Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Name 3
-  pic: photo
-  position: Project Manager
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://facebook.com/hiwebster
-
-# Address
-address:
-  - line: Address Line
-  - line: Алматы, Казахстан
+# Footer settings
+footer:
+  copyright: Webster
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
-exclude: [vendor]
