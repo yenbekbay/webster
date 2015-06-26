@@ -4,5 +4,5 @@ modal-id: 1
 date: 2015-04-16
 title: Seansy
 img: seansy.png
-
+link: http://seansy.kz
 ---
