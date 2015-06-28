@@ -50,12 +50,7 @@ header .tagline {
 }
 @media(min-width:768px) {
   header .tagline {
-    font-size: 1.75em;
-  }
-}
-@media(min-width:768px) {
-  .navbar-fixed-top .navbar-brand {
-    font-size: 2em;
+    font-size: 2.75em;
   }
 }
 .navbar a:focus {
@@ -63,6 +58,19 @@ header .tagline {
 }
 .navbar .navbar-nav li a:focus {
   outline: 0;
+}
+.navbar-brand {
+  display: block;
+  float: left;
+  font-size: 30px;
+  font-color: transparent;
+  width: 138px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-image: url(../img/logo@2x.png);
+  background-size: 138px 30px;
+  background-repeat: no-repeat;
 }
 .navbar-default {
   border: 0;
@@ -79,11 +87,6 @@ header .tagline {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
   color: darken($accent-color, 10%);
-}
-.navbar-brand {
-  color: $accent-color!important;
-  font-family: 'Fira Sans', sans-serif;
-  font-style: italic;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -115,7 +118,6 @@ section.success {
   section {
     padding: 75px 0;
   }
-
   section.first {
     padding-top: 75px;
   }
